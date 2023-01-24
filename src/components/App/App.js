@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          C'est mon profilé!
+          C'est mon profilé! ✨
         </a>
       </header>
     </div>

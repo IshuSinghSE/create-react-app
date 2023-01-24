@@ -26,6 +26,16 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: dotted;
+  background-image: -webkit-linear-gradient(black,rgb(20, 20, 20), to right);
+}
+
+.App-link:hover{
+  font-size: large;
+  border:#61dafb dashed 2px;
+  padding: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(0, 0, 0),rgb(37, 37, 37));
 }
 
 @keyframes App-logo-spin {
