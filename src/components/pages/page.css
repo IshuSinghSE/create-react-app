@@ -1,0 +1,92 @@
+
+
+.Qr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+    background-color: ghostwhite;
+    color:black;
+    padding:20px;
+    padding-bottom: 100px;
+}
+.range{
+    background-color:black;
+    margin:20px;
+    border: none;
+}
+.color{
+    margin:20px;
+    border:none;
+   
+}
+
+h5{
+    margin: 20px 0 0 0;
+}
+
+h1 {
+    font-family:fantasy;
+    font-size: 35px;
+    color: black;
+    font-variant: normal;
+}
+
+.gen input {
+    height: 45px;
+    width: 250px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 15px;
+    outline: none;
+    border: 3px whitesmoke solid;
+}
+
+button {
+    position: relative;
+    height: 38px;
+    width: 100px;
+    top: -2px;
+    font-size: 18px;
+    border: none;
+    color: whitesmoke;
+    background-color: forestgreen;
+    box-shadow: 2px 2px 5px rgb(74, 182, 74);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+.extra {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.output-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.Qr-link {
+    text-decoration: none;
+    color: black;
+}
+
+.Qr-link:hover {
+    color: cornflowerblue;
+}

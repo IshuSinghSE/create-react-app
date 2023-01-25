@@ -1,0 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/lilly');
+*{
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgba(0, 0, 0, .9);
+    padding: 2px 12px; 
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;  
+    font-weight: 200px;
+    margin: 16px;
+    transition: all ease-in .1s;
+    color:aliceblue;
+}
+
+nav a.active {
+    text-decoration: none;
+    margin: 16px;
+    font-weight: bold;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+}
+
