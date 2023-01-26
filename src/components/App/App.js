@@ -1,12 +1,11 @@
-
 import { Routes, Route } from "react-router-dom";
-import './App.css';
 import { Home } from '../pages/Home';
 import { Qrcode } from '../pages/Qrcode';
 import { About } from '../pages/About'
 import { Navbar } from "../navbar/Navbar";
 import { PageNotFound } from "../pages/PageNotFound";
-import { Weather } from "../pages/Weather";
+import { Weather } from "../weather/Weather";
+import './App.css'
 
 function App() {
 

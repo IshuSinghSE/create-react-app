@@ -1,5 +1,5 @@
 import React from 'react';
-import './page.css'
+import './page.css';
 import { useEffect, useState } from 'react';
 
 export const Qrcode = () => {
