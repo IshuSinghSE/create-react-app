@@ -42,3 +42,17 @@ self.addEventListener('activate', (event) => {
             
     )
 });
+
+
+    navigator.serviceWorker.controller.postMessage({ 
+   type: `IS_OFFLINE`
+   // add more properties if needed
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'IS_OFFLINE') {
+    // take relevant actions
+  }
+
+
+});
