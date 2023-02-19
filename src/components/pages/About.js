@@ -2,9 +2,10 @@ import React from 'react';
 
 export const About = () => {
     return (
-        <div>
-            
-            <p>To be created...</p>
+        <div style={{"text-align":"center"}}>
+           <div> 
+            To be created...
+           </div>
         </div>
     );
 }
