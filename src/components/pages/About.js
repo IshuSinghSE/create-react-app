@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <div>
             
-            <p>About US page body content</p>
+            <p>To be created...</p>
         </div>
     );
 }
